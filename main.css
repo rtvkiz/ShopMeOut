@@ -1,0 +1,436 @@
+ <style>
+        body{background-color:whitesmoke;
+            
+            opacity:1;
+        }
+        #header{
+            font-family:Ubuntu;
+            color:brown;
+            font-size:39px;
+            margin-left:10px;
+            margin-top:px;
+            padding-left:40px;
+            
+        }
+#scroll1{
+    cursor: pointer;
+}
+       
+        @media only screen and (max-width: 768px)
+            #mycarousel {
+    margin-left: -15px !important;
+    margin-right: -15px !important;
+    margin-top: 0 !important;
+}
+        .caption{
+            text-align: center;
+            text-decoration:none;
+            color: chocolate;
+        }
+        
+      * {
+    box-sizing: border-box;
+}
+        
+        #sign{
+            color: white;
+            margin-right:20px;
+            margin-top:5px;
+            
+            
+        }
+       
+        .navbar{
+            background-color:white;
+        
+        }
+.try{
+    background-color:bisque;
+    
+    animation-name: try1;
+    animation-duration: 1s;
+}
+@keyframes try1{
+    0%{background-color: white;}
+    100%{background-color:bisque;}
+}
+        .caption{
+            text-align: center;
+            font-family: Ubuntu;
+            
+            text-decoration: underline;
+        }
+        #list{
+            margin-left:100px;
+            font-size: 130%;
+            color:black;
+            padding-right:15px;
+            margin-top:2px;
+            padding-left:10px;
+            
+            
+        }
+        
+            
+        }
+        }
+        #list:visited{
+            background-color: black;
+        }
+        
+        .cont{
+            align-content: center;
+            margin-left:130px;
+            padding-left: 10px;
+            margin-top:80px;
+        }
+        
+        
+        .navbar{
+            margin-top:0px;
+        }
+        .indicators{
+            background-color: black;
+            margin-left:10px;
+        }
+        #sign{
+            color:darkorange;
+        }
+        #sign:hover{
+            color: black;
+        }
+        #myCarousel{
+            height:260px;
+            color: black;
+            width:90%;
+            border-radius: 10%;
+            
+        }
+        .mat{
+            width: 120%;
+            height: 260px;
+        }
+        
+        @media only screen and (max-width:768px){
+            #myCarousel{
+                height:115px;
+                width:104.2%;
+            }
+            .mat{
+                height:210px;
+                width:120%;
+                margin-top:5px;
+            }
+            .cont{
+                margin-left:-25px;
+                margin-top:50px;
+            }
+           
+        }
+        @media only screen and (max-width:768px){
+            #main{
+                margin-top:-10px;
+         margin-left:0px;
+            }
+            #page{
+                margin-left:15px;
+            }
+        }
+        .thumbnail{
+            width: 70%;
+            margin-top:110px;
+            align-content: center;
+        }
+        #banner-top{
+            margin-left: 151px;
+        }
+        .carousel-indicators{
+            color: black;
+            margin-bottom:0px;
+        }
+        .fa{
+            margin-top:80%;
+           
+        }
+        #sign{
+            margin-top:1px;
+        }
+        #mycarousel .carousel-control.right{
+            margin-right:-40px;
+            color: black;
+        }
+        .banner{
+    padding: 15px 0 0 0;
+    font-size: 18px;
+    font-family: Ubuntu;
+    color: #e91e63;
+    margin-left: 133px;
+}
+        #link:hover{
+            background-color: white;
+        }
+        #link{
+            text-align: center;
+            color: black;
+            
+        }
+        #image{
+            max-height:200px;
+             width:auto;
+        }
+        .caption{
+            max-height: inherit;
+        }
+        
+        .thumbnail:hover{
+            box-shadow: 0px 2px 2px 3px rgba(1,0,0,0.2);
+        }
+        #image:hover::before{
+            
+         border: 2px solid white;
+            width: 0px;
+        }
+        
+        #link:hover
+        
+        #image:hover::after{
+            border: 3px solid black;
+            width: 100%;
+            transition: 2s;
+        }
+        @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*=row] {
+        width:100%;
+    }
+        }
+        @media only screen and (max-width:768px){
+            #im{
+                visibility:visible;
+                width: auto;
+            }
+        }
+        #heading{
+            font-family: Ubuntu; color: #e91e63;font-size:70px;text-align: center
+        }
+        @media only screen and (max-width:768px){
+            .navbar-header{
+                max-height:none;
+            }
+        }
+        
+        @media only screen and (max-width:768px){
+            #link:hover{
+                background-color:rgb(139,0,0);
+            }
+            #link{
+                color: whitesmoke;
+            }
+        }
+        @media only screen and (max-width:768px){
+            #header{
+                font-size:24px;
+                margin-right:10px;
+            }
+        }
+        @media only screen and (max-width:768px){
+            #heading{
+                font-size:45px;
+                text-align: center;
+                margin-left:60px;
+            }
+        }
+        #subs{
+            font-family: Ubuntu;color:coral;font-size:40px;text-align: center;margin-top:50px;text-decoration: underline;
+        }
+        @media only screen and (max-width:768px){
+            #subs{
+                font-size:28px;
+                margin-left:55px;
+            }
+        }
+        
+        @media only screen and (max-width:768px){
+            #but{
+                margin-left: 0px;
+            }
+        }
+        @media only screen and (max-width:768px){
+            .banner{
+                margin-left:140px;
+                margin-top: 15px;
+            }
+        }
+        @media only screen and (max-width:768px){
+            #banner-top{
+                margin-left:140px;
+                margin-top: 15px;
+            }
+        }
+        @media only screen and (max-width:768px){
+            #final{
+                 margin-left:50px;
+                text-align: justify;
+            }
+        }
+        @media only screen and (max-width:768px){
+            .thumbnail{
+                margin-left:85px;
+            }
+        }
+        #form{
+            padding-left:170px;
+            margin-top:10px;
+        }
+        #search{
+            margin-left:-10px;
+        }
+        @media only screen and (max-width:768px){
+            .form-group{
+                
+                width:140px;
+                
+                margin-top: 20px;
+            }
+            #search{
+               margin-left:112px;
+                margin-top:-67px;
+            }
+            #imag1{
+                width: 80%;
+                
+            }
+        }
+        .overlay {
+  position: absolute;
+  bottom:67%;
+  left: 0;
+  right: 0;
+  background-color:rgb(139,0,0);
+  overflow: hidden;
+  width:65%;
+  height:0;
+  transition:.5s ease;
+opacity:1;
+object-fit: contain;
+margin-left: 15px;
+            margin-bottom:16px;
+}
+        .thumbnail:hover .overlay {
+  bottom:00;
+  height:67%;
+            box-shadow: 2px 3px 2px 3px rgba(0,0,0,0.1);
+}
+        .text {
+   white-space: nowrap;
+  color: white;
+  font-size:40px;
+  position: absolute;
+  overflow: hidden;
+  top:39%;
+  left: 50%;
+ transform: translate(-50%,-50%);
+-ms-transform: translate(-50%, -50%);
+  
+}
+        .sub-text{
+            color: darkorange;
+            font-size:22px;
+            position: absolute;
+            overflow: hidden;
+            top:67%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+-ms-transform: translate(-50%, -50%);
+            
+        }
+        .head{
+             color: darkorange;
+            font-size:22px;
+            position: absolute;
+            overflow: hidden;
+            top:10%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+-ms-transform: translate(-50%, -50%);
+        }
+        @media only screen and (max-width:768px){
+            .overlay{
+                visibility: hidden;
+            }
+        }
+        .headw{
+             color: darkorange;
+            font-size:22px;
+            position: absolute;
+            overflow: hidden;
+            top:10%;
+            left:44%;
+            transform: translate(-50%,-50%);
+-ms-transform: translate(-50%, -50%);
+        }
+        #hov{
+            height:15%;
+            margin-top:75%;
+            width:70%;
+            margin-left:16%;
+        }
+        
+        #full{
+            margin-right:110px;
+        }
+        #contact{
+            display: none;
+        }
+.modal-header{
+          background-color: rgb(139,0,0);
+        
+        height:70px;
+        padding: 0px;
+        }
+        .modal-title{
+            font-family: ubuntu;
+        font-size: 250%;
+        text-align: center;
+        color: white;
+            padding-top:15px;
+           
+            
+        }
+        .close{
+            color: white;
+            
+        }
+        .modal-body{
+            background-color:whitesmoke;
+        }
+        #anime{
+            animation-name: rot;
+            animation-duration:2s;
+        }
+        @keyframes rot{
+            0%{transform: scaleX(0);}
+            25%{transform: scaleX(-1);}
+            
+            50%{transform: scaleX(0);}
+            75%{transform: scaleX(-1);}
+            100%{transform: scaleX(0);}
+        }
+      
+        .modal-dialog{
+         width:30%;
+        }
+        .close{
+            float: right;
+            margin-top:-30px;
+            position: relative;
+            color: black;
+            
+        }
+@media only screen and (max-width:768px){
+    .modal-dialog{
+        width:95%;
+    }
+}
+      
+    </style>
